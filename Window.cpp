@@ -57,16 +57,10 @@ bool Window::initializeProgram() {
 
 bool Window::initializeObjects()
 {
-	// Create a cube of size 5.
-	//cube = new Cube(5.0f);
-
-	// Create a point cloud consisting of cube vertices.
-	//cubePoints = new PointCloud("foo", 15);
-
 	// Create models for each of the 3 loaded OBJ files
-	bunny = new Model("bunny.obj");
-	sandal = new Model("SandalF20.obj");
-	bear = new Model("bear.obj");
+	bunny = new Model("obj/bunny.obj");
+	sandal = new Model("obj/SandalF20.obj");
+	bear = new Model("obj/bear.obj");
 
 	// Materials for each obj file
 	// high diffuse
@@ -83,7 +77,7 @@ bool Window::initializeObjects()
 
 	// Light source
 	light = new PointLight(glm::vec3(0,0,8), glm::vec3(1.0,0.8,0.3),
-		glm::vec3(0.2,0.2,0.2),"sphere.obj");
+		glm::vec3(0.2,0.2,0.2),"obj/sphere.obj");
 	lightMat = new Materials(glm::vec3(1.0,0.9,0.1),glm::vec3(0,0,0),
 		glm::vec3(0,0,0), 0);
 
