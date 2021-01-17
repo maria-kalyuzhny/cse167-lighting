@@ -6,12 +6,12 @@ This project is a simple demo for Phong illumination using C++ and OpenGL, allow
 
 Manipulating model and light source with high specular reflection component:
 
-![Alt Text](https://github.com/maria-kalyuzhny/tile-art/blob/master/media/demo.gif)
+![Alt Text](https://github.com/maria-kalyuzhny/cse167-lighting/blob/master/media/demo.gif)
 <br/><br/>
 
 Different model with a high diffuse reflection component:
 
-![Alt Text](https://github.com/maria-kalyuzhny/tile-art/blob/master/media/specular.png)
+![Alt Text](https://github.com/maria-kalyuzhny/cse167-lighting/blob/master/media/specular.png)
 
 ## Usage
 
