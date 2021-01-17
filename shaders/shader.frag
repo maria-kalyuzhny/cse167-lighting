@@ -28,7 +28,6 @@ void main()
 		fragColor = vec4(normalm, 1);
 	}
 	else {
-		//fragColor = vec4(posOutput, 1);
 		vec3 L = normalize(lightPos-posOutput);
 		vec3 cl = lightCol/(lightAtten[1]*distance(lightPos,posOutput));
 		vec3 ambient = ka;
@@ -37,7 +36,7 @@ void main()
 		vec3 viewVec= normalize(eyePos-posOutput);
 		float spec = pow(clamp(dot(viewVec, reflVec), 0,1 ), p);
 		vec3 specular = ks*spec;
-		fragColor = vec4(cl*(ambient+diffuse+specular),1);
+		fragColor = vec4(ambient+cl*(diffuse+specular),1);
 	}
 
 }
