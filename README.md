@@ -11,7 +11,7 @@ Manipulating model and light source with high specular reflection component:
 
 Different model with a high diffuse reflection component:
 
-![Alt Text](https://github.com/maria-kalyuzhny/cse167-lighting/blob/master/media/specular.png)
+![Alt Text](https://github.com/maria-kalyuzhny/cse167-lighting/blob/master/media/diffuse.png)
 
 ## Usage
 
